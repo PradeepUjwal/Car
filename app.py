@@ -31,8 +31,6 @@ if st.button("Predict Selling Price"):
     prediction = model.predict(features)
     st.success(f"Predicted Selling Price: ${prediction[0]:,.2f}")
 
-# Footer
-st.markdown("---")
-st.markdown("Created by Pradeep,Vivek,Sahithi,Spadana - LET'S GO 🚗💨")
+
 
 
