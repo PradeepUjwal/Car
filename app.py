@@ -30,3 +30,9 @@ if st.button("Predict Selling Price"):
     features = np.array([[condition, odometer, vehicle_age, make_encoded, body_sedan_encoded]])
     prediction = model.predict(features)
     st.success(f"Predicted Selling Price: ${prediction[0]:,.2f}")
+
+# Footer
+st.markdown("---")
+st.markdown("Created by Pradeep,Vivek,Sahithi,Spadana - LET'S GO 🚗💨")
+
+
